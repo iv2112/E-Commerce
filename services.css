@@ -1,0 +1,91 @@
+h1 {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  margin-top: 15px;
+  margin-left: 9px;
+  background: linear-gradient(90deg, darkorange, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block
+}
+
+body {
+  margin: 0;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  background-color: rgb(34, 34, 34);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  color: rgb(250, 248, 243);
+  padding: 15px 30px;
+}
+
+.nav-contents {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-contents a {
+  color: rgb(250, 248, 243);
+  text-decoration: none;
+}
+
+.nav-contents a:hover {
+  color: darkorange;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.sports,
+.comfort,
+.party {
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  background-color: rgb(34, 34, 34);
+  opacity: 0.7;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(250, 248, 243);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.sports:hover,
+.comfort:hover,
+.party:hover {
+  box-shadow: 7px 9px 20px grey;
+}
+
+.a {
+  margin: 0;
+  padding: 0;
+  font-size: 37px;
+  color: rgb(250, 248, 243);
+  position: relative;
+  top: 47.5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}

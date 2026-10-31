@@ -1,0 +1,142 @@
+h1 {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  margin-top: 15px;
+  margin-left: 9px;
+  background: linear-gradient(90deg, darkorange, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block
+}
+
+body {
+  margin: 0;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  background-color: rgb(34, 34, 34);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  color: rgb(250, 248, 243);
+  padding: 15px 30px;
+}
+
+.nav-contents {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-contents a {
+  color: rgb(250, 248, 243);
+  text-decoration: none;
+}
+
+.nav-contents a:hover {
+  color: darkorange;
+}
+
+.banner {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+
+.img-con {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.shopping {
+  top: 45%;
+  left: 50%;
+  width: 280px;
+  font-size: 24px;
+  text-align: center;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkorange;
+  border-width: 2px;
+  display: block;
+  color: rgb(34, 34, 34);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: darkorange;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shopping:hover {
+  background-color: rgb(250, 248, 243);
+  color: darkorange;
+}
+
+.viewing {
+  top: 57%;
+  left: 50%;
+  width: 280px;
+  font-size: 24px;
+  text-align: center;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkorange;
+  border-width: 2px;
+  display: block;
+  color: rgb(34, 34, 34);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: darkorange;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.viewing:hover {
+  background-color: rgb(250, 248, 243);
+  color: darkorange;
+}
+
+.about-title {
+  color: darkorange;
+  font-size: 31px;
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 17px;
+}
+
+.line {
+  width: 270px;
+  height: 2px;
+  background-color: darkorange;
+  border: none;
+  margin: 16px auto;
+  text-align: center;
+}
+
+.para {
+  color: darkorange;
+  font-size: 17px;
+  margin-top: 67px;
+  width: 450px;
+  margin-left: 34.5%;
+  text-align: center;
+  margin-bottom: 130px;
+}
